@@ -1,0 +1,5 @@
+/*
+!.gitignore
+!/Air_Band/
+/Air_Band/Debug
+/Air_Band/Release
