@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Air_Band", "Air_Band\Air_Band.vcxproj", "{374BA577-C7EC-4809-9B8E-A83F8540E912}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CFugue", "CFugue\CFugue.vcxproj", "{7ABB51A5-E5CD-431C-9F12-08549FEB2D76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Win32 = CD_ROM|Win32
+		Debug|Win32 = Debug|Win32
+		DVD-5|Win32 = DVD-5|Win32
+		Release|Win32 = Release|Win32
+		SingleImage|Win32 = SingleImage|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{374BA577-C7EC-4809-9B8E-A83F8540E912}.CD_ROM|Win32.ActiveCfg = Release|Win32
+		{374BA577-C7EC-4809-9B8E-A83F8540E912}.CD_ROM|Win32.Build.0 = Release|Win32
+		{374BA577-C7EC-4809-9B8E-A83F8540E912}.Debug|Win32.ActiveCfg = Debug|Win32
+		{374BA577-C7EC-4809-9B8E-A83F8540E912}.Debug|Win32.Build.0 = Debug|Win32
+		{374BA577-C7EC-4809-9B8E-A83F8540E912}.DVD-5|Win32.ActiveCfg = Debug|Win32
+		{374BA577-C7EC-4809-9B8E-A83F8540E912}.DVD-5|Win32.Build.0 = Debug|Win32
+		{374BA577-C7EC-4809-9B8E-A83F8540E912}.Release|Win32.ActiveCfg = Release|Win32
+		{374BA577-C7EC-4809-9B8E-A83F8540E912}.Release|Win32.Build.0 = Release|Win32
+		{374BA577-C7EC-4809-9B8E-A83F8540E912}.SingleImage|Win32.ActiveCfg = Release|Win32
+		{374BA577-C7EC-4809-9B8E-A83F8540E912}.SingleImage|Win32.Build.0 = Release|Win32
+		{7ABB51A5-E5CD-431C-9F12-08549FEB2D76}.CD_ROM|Win32.ActiveCfg = Release|Win32
+		{7ABB51A5-E5CD-431C-9F12-08549FEB2D76}.CD_ROM|Win32.Build.0 = Release|Win32
+		{7ABB51A5-E5CD-431C-9F12-08549FEB2D76}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7ABB51A5-E5CD-431C-9F12-08549FEB2D76}.Debug|Win32.Build.0 = Debug|Win32
+		{7ABB51A5-E5CD-431C-9F12-08549FEB2D76}.DVD-5|Win32.ActiveCfg = Debug|Win32
+		{7ABB51A5-E5CD-431C-9F12-08549FEB2D76}.DVD-5|Win32.Build.0 = Debug|Win32
+		{7ABB51A5-E5CD-431C-9F12-08549FEB2D76}.Release|Win32.ActiveCfg = Release|Win32
+		{7ABB51A5-E5CD-431C-9F12-08549FEB2D76}.Release|Win32.Build.0 = Release|Win32
+		{7ABB51A5-E5CD-431C-9F12-08549FEB2D76}.SingleImage|Win32.ActiveCfg = Release|Win32
+		{7ABB51A5-E5CD-431C-9F12-08549FEB2D76}.SingleImage|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
