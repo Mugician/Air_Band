@@ -1,5 +1,6 @@
 /*
 !.gitignore
+!Air_Band.sdf
 !/Air_Band/
 /Air_Band/Debug
 /Air_Band/Release
