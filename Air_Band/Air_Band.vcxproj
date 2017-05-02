@@ -11,6 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="HandFinger_Dectect.cpp" />
     <ClCompile Include="src\TestCFugue.cpp" />
     <ClCompile Include="src\TestCV.cpp" />
     <ClCompile Include="src\TestNI.cpp" />
@@ -45,8 +46,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>D:\OpenCV\opencv\build\include;D:\OpenCV\opencv\build\include\opencv;D:\OpenCV\opencv\build\include\opencv2;C:\Program Files\Microsoft SDKs\Kinect\v1.8\inc;D:\OpenNI\NITE2\Include;D:\OpenNI\Include\Win32;D:\OpenNI\Include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\OpenNI\NITE2\Lib;D:\OpenCV\opencv\build\x86\vc12\lib;D:\OpenCV\opencv\build\x86\vc12\staticlib;C:\Program Files\Microsoft SDKs\Kinect\v1.8\lib\x86;D:\OpenNI\Lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\OpenCV\opencv\build\include;D:\OpenCV\opencv\build\include\opencv;D:\OpenCV\opencv\build\include\opencv2;C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\inc;C:\Program Files\Microsoft SDKs\Kinect\v1.8\inc;D:\OpenNI\NITE2\Include;D:\OpenNI\Include\Win32;D:\OpenNI\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\OpenNI\NITE2\Lib;D:\OpenCV\opencv\build\x86\vc12\lib;D:\OpenCV\opencv\build\x86\vc12\staticlib;C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Lib\x86;C:\Program Files\Microsoft SDKs\Kinect\v1.8\lib\x86;D:\OpenNI\Lib;$(OpenNI2_LIB);$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ExecutablePath>$(ExecutablePath)</ExecutablePath>
@@ -59,10 +60,12 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CFugue\CFugue\include;D:\CFugue\CFugue\include\common;D:\CFugue\CFugue\test\..\include;D:\CFugue\CFugue\test\..\include\Common;D:\CFugue\CFugue\test\..\src;D:\CFugue\CFugue\test\..\src\QtVuMeter;D:\CFugue\CFugue\build\test;D:\CFugue\CFugue\test\..\src\3rdparty\tse3\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>opencv_ml2413d.lib;opencv_calib3d2413d.lib;opencv_contrib2413d.lib;opencv_core2413d.lib;opencv_features2d2413d.lib;opencv_flann2413d.lib;opencv_gpu2413d.lib;opencv_highgui2413d.lib;opencv_imgproc2413d.lib;opencv_legacy2413d.lib;opencv_objdetect2413d.lib;opencv_ts2413d.lib;opencv_video2413d.lib;opencv_nonfree2413d.lib;opencv_ocl2413d.lib;opencv_photo2413d.lib;opencv_stitching2413d.lib;opencv_superres2413d.lib;opencv_videostab2413d.lib;IlmImfd.lib;libjasperd.lib;libjpegd.lib;libpngd.lib;libtiffd.lib;zlibd.lib;Kinect10.lib;OpenNI2.lib;NiTE2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>KinectInteraction180_32.lib;opencv_ml2413d.lib;opencv_calib3d2413d.lib;opencv_contrib2413d.lib;opencv_core2413d.lib;opencv_features2d2413d.lib;opencv_flann2413d.lib;opencv_gpu2413d.lib;opencv_highgui2413d.lib;opencv_imgproc2413d.lib;opencv_legacy2413d.lib;opencv_objdetect2413d.lib;opencv_ts2413d.lib;opencv_video2413d.lib;opencv_nonfree2413d.lib;opencv_ocl2413d.lib;opencv_photo2413d.lib;opencv_stitching2413d.lib;opencv_superres2413d.lib;opencv_videostab2413d.lib;IlmImfd.lib;libjasperd.lib;libjpegd.lib;libpngd.lib;libtiffd.lib;zlibd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;CFuguedu.lib;jdkmididu.lib;WinMM.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\CFugue\CFugue\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

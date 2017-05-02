@@ -27,5 +27,8 @@
     <ClCompile Include="src\TestSDK.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="HandFinger_Dectect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

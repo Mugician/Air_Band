@@ -7,12 +7,16 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Air_Band", "Air_Band\Air_Ba
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CFugue", "CFugue\CFugue.vcxproj", "{7ABB51A5-E5CD-431C-9F12-08549FEB2D76}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testCFugueLib", "test\testCFugueLib.vcxproj", "{91849987-7A1C-32D4-B5CE-16801A952745}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		CD_ROM|Win32 = CD_ROM|Win32
 		Debug|Win32 = Debug|Win32
 		DVD-5|Win32 = DVD-5|Win32
+		MinSizeRel|Win32 = MinSizeRel|Win32
 		Release|Win32 = Release|Win32
+		RelWithDebInfo|Win32 = RelWithDebInfo|Win32
 		SingleImage|Win32 = SingleImage|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
@@ -22,8 +26,12 @@ Global
 		{374BA577-C7EC-4809-9B8E-A83F8540E912}.Debug|Win32.Build.0 = Debug|Win32
 		{374BA577-C7EC-4809-9B8E-A83F8540E912}.DVD-5|Win32.ActiveCfg = Debug|Win32
 		{374BA577-C7EC-4809-9B8E-A83F8540E912}.DVD-5|Win32.Build.0 = Debug|Win32
+		{374BA577-C7EC-4809-9B8E-A83F8540E912}.MinSizeRel|Win32.ActiveCfg = Debug|Win32
+		{374BA577-C7EC-4809-9B8E-A83F8540E912}.MinSizeRel|Win32.Build.0 = Debug|Win32
 		{374BA577-C7EC-4809-9B8E-A83F8540E912}.Release|Win32.ActiveCfg = Release|Win32
 		{374BA577-C7EC-4809-9B8E-A83F8540E912}.Release|Win32.Build.0 = Release|Win32
+		{374BA577-C7EC-4809-9B8E-A83F8540E912}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
+		{374BA577-C7EC-4809-9B8E-A83F8540E912}.RelWithDebInfo|Win32.Build.0 = Release|Win32
 		{374BA577-C7EC-4809-9B8E-A83F8540E912}.SingleImage|Win32.ActiveCfg = Release|Win32
 		{374BA577-C7EC-4809-9B8E-A83F8540E912}.SingleImage|Win32.Build.0 = Release|Win32
 		{7ABB51A5-E5CD-431C-9F12-08549FEB2D76}.CD_ROM|Win32.ActiveCfg = Release|Win32
@@ -32,10 +40,28 @@ Global
 		{7ABB51A5-E5CD-431C-9F12-08549FEB2D76}.Debug|Win32.Build.0 = Debug|Win32
 		{7ABB51A5-E5CD-431C-9F12-08549FEB2D76}.DVD-5|Win32.ActiveCfg = Debug|Win32
 		{7ABB51A5-E5CD-431C-9F12-08549FEB2D76}.DVD-5|Win32.Build.0 = Debug|Win32
+		{7ABB51A5-E5CD-431C-9F12-08549FEB2D76}.MinSizeRel|Win32.ActiveCfg = Debug|Win32
+		{7ABB51A5-E5CD-431C-9F12-08549FEB2D76}.MinSizeRel|Win32.Build.0 = Debug|Win32
 		{7ABB51A5-E5CD-431C-9F12-08549FEB2D76}.Release|Win32.ActiveCfg = Release|Win32
 		{7ABB51A5-E5CD-431C-9F12-08549FEB2D76}.Release|Win32.Build.0 = Release|Win32
+		{7ABB51A5-E5CD-431C-9F12-08549FEB2D76}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
+		{7ABB51A5-E5CD-431C-9F12-08549FEB2D76}.RelWithDebInfo|Win32.Build.0 = Release|Win32
 		{7ABB51A5-E5CD-431C-9F12-08549FEB2D76}.SingleImage|Win32.ActiveCfg = Release|Win32
 		{7ABB51A5-E5CD-431C-9F12-08549FEB2D76}.SingleImage|Win32.Build.0 = Release|Win32
+		{91849987-7A1C-32D4-B5CE-16801A952745}.CD_ROM|Win32.ActiveCfg = Release|Win32
+		{91849987-7A1C-32D4-B5CE-16801A952745}.CD_ROM|Win32.Build.0 = Release|Win32
+		{91849987-7A1C-32D4-B5CE-16801A952745}.Debug|Win32.ActiveCfg = Debug|Win32
+		{91849987-7A1C-32D4-B5CE-16801A952745}.Debug|Win32.Build.0 = Debug|Win32
+		{91849987-7A1C-32D4-B5CE-16801A952745}.DVD-5|Win32.ActiveCfg = Debug|Win32
+		{91849987-7A1C-32D4-B5CE-16801A952745}.DVD-5|Win32.Build.0 = Debug|Win32
+		{91849987-7A1C-32D4-B5CE-16801A952745}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{91849987-7A1C-32D4-B5CE-16801A952745}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
+		{91849987-7A1C-32D4-B5CE-16801A952745}.Release|Win32.ActiveCfg = Release|Win32
+		{91849987-7A1C-32D4-B5CE-16801A952745}.Release|Win32.Build.0 = Release|Win32
+		{91849987-7A1C-32D4-B5CE-16801A952745}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{91849987-7A1C-32D4-B5CE-16801A952745}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+		{91849987-7A1C-32D4-B5CE-16801A952745}.SingleImage|Win32.ActiveCfg = Release|Win32
+		{91849987-7A1C-32D4-B5CE-16801A952745}.SingleImage|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
